@@ -16,9 +16,23 @@ app.use(cors())
 // Routes ---------------------------------------------------------------------
 //
 
+//
+// Status
+//
+
 app.get('/status', (req, res) => {
   res.send({
     message: 'Hello World!'
+  })
+})
+
+//
+// Register
+//
+
+app.post('/register', (req, res) => {
+  res.send({
+    message: `Hello, ${req.body.email}! You are now registered! Have fun!`
   })
 })
 
