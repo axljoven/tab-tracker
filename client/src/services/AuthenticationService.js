@@ -19,3 +19,8 @@ export default {
 //     email: 'testing@gmail.com',
 //     password: '123456'
 // })
+
+// How this works: ------------------------------------------------------------
+
+// imports initialized axios
+// returns an object that has a register() function
